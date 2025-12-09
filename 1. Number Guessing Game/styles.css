@@ -1,0 +1,120 @@
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f7f7f7;
+  color: #0a0b0b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* General Styles */
+main {
+  background-color: #0000001c;
+  width: 90%;
+  max-width: 700px;
+  padding: 32px 16px;
+  border-radius: 16px;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.262);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 32px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  line-height: 64px;
+}
+
+.left {
+  text-align: center;
+}
+
+.secretNumber {
+  width: 10rem;
+  font-size: 2rem;
+  padding: 1.25rem 0;
+  background-color: #0a0b0b;
+  color: #f7f7f7;
+  margin-top: 32px;
+  text-align: center;
+}
+
+.guess {
+  font-family: inherit;
+  font-size: 2rem;
+  padding: 1rem;
+  width: 15rem;
+  display: block;
+  margin-bottom: 1.5rem;
+  background: rgb(160, 160, 160);
+  color: #0a0b0b;
+  text-align: center;
+  border: 2px solid #0a0b0b;
+}
+
+.message {
+    font-size: 1.35rem;
+    font-weight: 700;
+}
+
+.btn {
+  font-family: inherit;
+  background-color: none;
+  border: none;
+  padding: 1rem 3rem;
+  font-size: 1.25rem;
+  border-radius: 0.25rem;
+}
+
+.resetContainer {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.check {
+  background-color: #0a0b0b;
+  color: #f7f7f7;
+}
+
+.check:hover {
+  background: rgb(44, 44, 44);
+}
+
+.reset {
+  background: rgb(250, 186, 186);
+  color: red;
+}
+
+.reset:hover {
+  background: rgba(253, 169, 169, 0.996);
+}
