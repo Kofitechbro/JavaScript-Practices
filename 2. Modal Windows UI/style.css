@@ -1,0 +1,96 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #161616;
+    color: #242424;
+    font-family: sans-serif;
+    line-height: 1.5;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* TAGS NAME TO MAKE MODAL WORK */
+
+header {
+    position: absolute;
+    top: 0;
+}
+
+header button {
+    padding: 1.75rem 3.5rem;
+    margin: 5rem 2rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section {
+    background-color: aliceblue;
+    border-radius: 1.25rem;
+    width: 70%;
+    box-shadow: 0rem 0rem 3rem 1rem rgb(86, 86, 86);
+    padding: 4rem;
+    z-index: 5;
+}
+
+/* CLASSES TO MAKE MODAL WORK */
+.closeModal {
+    display: block;
+    float: right;
+    font-size: 4rem;
+    background: none;
+    border: none;
+}
+
+.closeModal:hover {
+    background: rgb(231, 238, 245);
+    border: 1px solid rgb(135, 135, 135) ;
+}
+
+.hidden {
+    display: none;
+}
+
+.overLay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(2px);
+    height: 100%;
+    z-index: 4;
+}
