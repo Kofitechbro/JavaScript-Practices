@@ -7,13 +7,6 @@ const modal3 = document.querySelector('.modal3');
 const btnsCloseModal = document.querySelectorAll('.closeModal');
 const overLay = document.querySelector('.overLay');
 
-// MODALS
-const modals = function () {
-  modal1;
-  modal2;
-  modal3;
-};
-
 // OPEN MODAL
 const openModal1 = function () {
   modal1.classList.remove('hidden');
